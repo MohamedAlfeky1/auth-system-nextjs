@@ -1,0 +1,26 @@
+.main {
+  padding: 0 160px;
+  margin: 45px 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 414px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    padding: 0 65px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 0 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,55 @@
+.authCard {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.authCard h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.authCard input[type="text"],
+.authCard input[type="email"],
+.authCard input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.authCard input[type="text"]:focus,
+.authCard input[type="email"]:focus,
+.authCard input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.authCard button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.authCard button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
