@@ -4,7 +4,7 @@
 
 Hello, I’m **Mohamed Alfeky**, a Front-End Developer with a focus on building efficient web applications. This project is an authentication system that I developed using **Next.js**, featuring both **login** and **signup** functionality.
 
-The system uses **JSON Web Tokens (JWT)** for user authentication. The token is stored in the browser’s `localStorage` for seamless navigation across pages. However, it's important to note that storing tokens in `localStorage` comes with potential security risks, as it can be accessed by malicious scripts.
+The system uses **JSON Web Tokens (JWT)** for user authentication. The token is stored in the browser’s `localStorage` for seamless navigation across pages. However, **I do not use refresh tokens** in this implementation, meaning the JWT is valid for the session duration without automatic renewal.
 
 ## Features
 
